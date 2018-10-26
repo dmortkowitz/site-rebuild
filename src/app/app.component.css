@@ -132,8 +132,32 @@ a {
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+#booksWorth {
+  font-family: Times;
+  color: black;
+  position: absolute;
+  bottom: 225px;
+  left: 5px;
+}
+#preorderInvert {
+  font-family: Lato,sans-serif;
+  color: black;
+  font-size: 12px;
+  border-color: black;
+  border-radius: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  bottom: 200px;
+  left: 112px;
+  margin-top: 2%;
 
 }
+
 .btn-primary-outline {
   background-color: transparent;
   border-color: #ccc;
