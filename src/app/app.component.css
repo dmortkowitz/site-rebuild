@@ -152,10 +152,18 @@ a {
   padding-top: 5px;
   padding-bottom: 5px;
   position: absolute;
-  bottom: 200px;
+  bottom: 180px;
   left: 112px;
-  margin-top: 2%;
+  margin-top: 50px;
+}
 
+#booksSmallInvert {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  bottom: 220px;
+  left: 40px;
+  margin-top: 50px;
 }
 
 .btn-primary-outline {
