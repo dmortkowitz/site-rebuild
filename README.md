@@ -1,26 +1,42 @@
 # SiteRebuild
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+_by David Mortkowitz_
 
-## Development server
+> This application recreates a website for Epicodus's Javascript week 3 curriculum. I have chosen to mimic BarnesandNoble.com
+>
+>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# Application specifications and behavior expectations
 
-## Code scaffolding
+* User should be able to navigate the front page of a mock BN.com layout.
+* Multiple components used, separating functional logic out into its most basic parts.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## installation and usage
+#### Week 1
 
-## Build
+* Please have full installation of the items listed in the program.json file (located here: ), along with Angular CLI (Angular CLI 1.6.5 was used in making this project).
+* After downloading the repository (located at: ), navigate to project folder in Terminal (or your command line of choice) and run the command:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+> npm install
 
-## Running unit tests
+* to install all dependencies before continuing.
+* Once all dependencies are installed, please run:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> ng serve
 
-## Running end-to-end tests
+* to launch the test server in Angular CLI to run the site and test its functionality.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Technologies used
+
+* Atom
+* ES6
+* Angular CLI (1.6.5)
+* Karma
+* Jasmine
+* Firebase (week 2)
+
+
 
 ## Further help
 
