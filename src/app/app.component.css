@@ -19,17 +19,18 @@ width: 100%;
 #myAccount {
 float: right;
 }
-
 .educatorBar {
   background: #366250;
   padding-top: 2%;
-
   width: auto;
 }
 .educatorBar img {
   max-height: 42px;
-
 }
+
+
+
+
 
 #educatorAnnouncement {
 float: none;
