@@ -7,10 +7,20 @@ float: none;
 
 }
 
+#logoMain{
+height: 80px;
+}
 .upperNavBarRight {
 background: #c9dbe2;
 float: right;
 }
+#mainSearch {
+width: 100%;
+}
+#myAccount {
+float: right;
+}
+
 
 
 a {
