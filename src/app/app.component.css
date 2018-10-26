@@ -4,7 +4,6 @@
 .upperNavBarLeft {
 background: #c9dbe2;
 float: none;
-
 }
 
 #logoMain{
@@ -19,6 +18,13 @@ width: 100%;
 }
 #myAccount {
 float: right;
+}
+
+.educatorBar {
+  background: #366250;
+}
+.educatorBar img {
+  max-height: 42px;
 }
 
 
