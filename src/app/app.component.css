@@ -1,3 +1,18 @@
 .navbar {
  font-size: 12px;
 }
+.upperNavBarLeft {
+background: #c9dbe2;
+float: none;
+
+}
+
+.upperNavBarRight {
+background: #c9dbe2;
+float: right;
+}
+
+
+a {
+color: #21282d;
+}
