@@ -9,6 +9,11 @@
 # dependencies
 /node_modules
 
+
+#Firebse credentials
+/src/app/api-keys.ts
+
+
 # IDEs and editors
 /.idea
 .project

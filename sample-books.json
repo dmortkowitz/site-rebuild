@@ -1,0 +1,17 @@
+{ "books": [{
+    "title": "book1",
+    "author": "author1",
+    "description": "Boy dang do things happen in this book.",
+    "id": "1"
+    }, {
+    "title": "book2",
+    "author": "author2",
+    "description": "Ooo-ee, hold on to your hats.",
+    "id": "2"
+      }, {
+    "title": "book3",
+    "author": "author3",
+    "description": "Dang. Not for the too-young, or the too-old.",
+    "id": "3"
+  }]
+}
