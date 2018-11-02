@@ -1,0 +1,46 @@
+ul {
+  list-style: none;
+}
+
+.upperNavBarLeft {
+  background: #c9dbe2;
+  /* float: left; */
+  width: 50%;
+  font-size: 13px;
+
+}
+.upperNavBarRight {
+  background: #c9dbe2;
+  font-size: 13px;
+  text-align: right;
+  padding-right: 15px;
+  float: right;
+  width: 50%;
+  position: absolute;
+  top: 0px;
+  right: 160px;
+}
+
+.scroller {
+   height: 14pt;
+   line-height: 14pt;
+   overflow: hidden;
+   font-size: 12px;
+}
+
+.scroller .inner { animation: 8s normal infinite running scroll; }
+@keyframes scroll {
+   0%  	{margin-top: 0px;}
+   15% 	{margin-top: 0px;}
+   25%  {margin-top: -13pt;}
+   40%  {margin-top: -13pt;}
+   50%  {margin-top: -26pt;}
+   65%  {margin-top: -26pt;}
+   75%  {margin-top: -52pt;}
+   95%  {margin-top: -52pt;}
+   100% {margin-top: 0px;}
+}
+
+a {
+  color: #21282d;
+}
