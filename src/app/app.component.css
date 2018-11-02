@@ -66,7 +66,7 @@ ul {
   font-size: 13px;
 }
 
-.navbar {
+/* .navbar {
     color: #373d42;
     font-family: Lato,sans-serif;
 }
@@ -75,32 +75,31 @@ ul {
     float: left;
     font-size: 11px;
     /* color: white; */
-    text-align: center;
+    /* text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
+} */
 
-.dropdown {
+/* .dropdown {
     float: left;
     /* overflow: hidden; */
-}
+/* }
 
 .dropdown .dropbtn {
     font-size: 11px;
     border: none;
     outline: none;
     /* color: white; */
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
     /* background-color: inherit; */
-    font-family: inherit;
+    /* font-family: inherit;
     margin: 0;
-}
-
+} */
 /* .navbar a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 } */
 
-.dropdown-content {
+/* .dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -128,7 +127,7 @@ ul {
 
 #saleLink {
   color: #dc332a;
-}
+}  */
 
 
 .educatorBar {
@@ -164,7 +163,7 @@ a {
   color: #21282d;
 }
 
-#suspenseFont {
+/* #suspenseFont {
   font-family: Times;
 }
 #preorderNowFont{
@@ -219,13 +218,13 @@ a {
   padding-right: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-}
+} */
 
-.grayBox {
+/* .grayBox {
   background-color: #d0d9df;
   text-align: center;
   padding-top: 1.25%;
   padding-bottom: 1.25%;
   font-family: Lato,sans-serif;
   font-size: 12px;
-}
+} */

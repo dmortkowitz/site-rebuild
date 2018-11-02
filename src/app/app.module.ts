@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { routing } from './app.routing';
+import { NavbarComponent } from './navbar/navbar.component';
 
 
 
@@ -25,13 +26,15 @@ export const firebaseConfig = {
     AppComponent,
     CarouselComponent,
     MarketplaceComponent,
+    NavbarComponent,
 
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(masterFirebaseConfig.firebase),
     AngularFireAuthModule,
-    FormsModule
+    FormsModule,
+    routing
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]
