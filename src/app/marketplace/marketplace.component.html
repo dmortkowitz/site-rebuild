@@ -4,4 +4,10 @@
   Please view our current stock!
   </p>
 
-  
+
+
+  <div *ngFor="let book of books" (click)="goToDetailPage(book)" class="panel panel-default">
+    <div class="panel-body">
+      <h3><em>{{book.title}}</em> by {{book.author}}</h3>
+    </div>
+  </div>

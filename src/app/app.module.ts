@@ -14,6 +14,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { EducatorbarComponent } from './educatorbar/educatorbar.component';
 import { LogobarComponent } from './logobar/logobar.component';
 import { MainsiteComponent } from './mainsite/mainsite.component';
+import { BookDetailComponent } from './book-detail/book-detail.component';
 
 
 
@@ -33,7 +34,8 @@ export const firebaseConfig = {
     NavbarComponent,
     EducatorbarComponent,
     LogobarComponent,
-    MainsiteComponent
+    MainsiteComponent,
+    BookDetailComponent
 
   ],
 
