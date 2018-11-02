@@ -22,7 +22,7 @@ ul {
   width: 50%;
   position: absolute;
   top: 0px;
-  /* right: 160px; */
+  right: 160px;
 }
 
 .scroller {
