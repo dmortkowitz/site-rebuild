@@ -1,12 +1,13 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { MarketplaceComponent } from "./marketplace/marketplace.component"
-import { MainsiteComponent } from './mainsite/mainsite.component'
+import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { MainsiteComponent } from './mainsite/mainsite.component';
+
 
 
 const appRoutes: Routes = [
   {
-    path: '',
+    path: 'mainsite',
     component: MainsiteComponent
   },
   {

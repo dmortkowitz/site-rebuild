@@ -17,6 +17,7 @@ import { MainsiteComponent } from './mainsite/mainsite.component';
 
 
 
+
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.firebase.apiKey,
   authDomain: masterFirebaseConfig.firebase.authDomain,
@@ -32,9 +33,10 @@ export const firebaseConfig = {
     NavbarComponent,
     EducatorbarComponent,
     LogobarComponent,
-    MainsiteComponent,
+    MainsiteComponent
 
   ],
+
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(masterFirebaseConfig.firebase),
@@ -42,6 +44,7 @@ export const firebaseConfig = {
     FormsModule,
     routing
   ],
+
   providers: [AuthService],
   bootstrap: [AppComponent]
 })
