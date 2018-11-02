@@ -3,8 +3,9 @@ import { Routes, RouterModule } from '@angular/router';
 import { MarketplaceComponent } from "./marketplace/marketplace.component"
 
 const appRoutes: Routes = [
+
   {
-    path: '',
+    path: 'marketplace',
     component: MarketplaceComponent
   }
 ];

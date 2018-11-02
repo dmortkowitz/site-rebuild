@@ -13,6 +13,7 @@ import { routing } from './app.routing';
 import { NavbarComponent } from './navbar/navbar.component';
 import { EducatorbarComponent } from './educatorbar/educatorbar.component';
 import { LogobarComponent } from './logobar/logobar.component';
+import { MainsiteComponent } from './mainsite/mainsite.component';
 
 
 
@@ -31,6 +32,7 @@ export const firebaseConfig = {
     NavbarComponent,
     EducatorbarComponent,
     LogobarComponent,
+    MainsiteComponent,
 
   ],
   imports: [
