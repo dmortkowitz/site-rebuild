@@ -1,11 +1,12 @@
 import { Injectable } from '@angular/core';
-import { Album } from './album.model';
-import { ALBUMS } from './mock-albums';
+import { Book } from './inventory.model';
+import { BOOKS } from './mock-books';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
 @Injectable()
 export class InventoryService {
   books: FirebaseListObservable<any[]>;
-  constructor() { }
+  constructor(private database: AngularFireDatabase) {
+ }
 
 }
