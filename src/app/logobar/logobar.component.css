@@ -1,0 +1,18 @@
+#logoMain{
+  height: 80px;
+}
+
+#mainSearch {
+  width: 45%;
+  margin-left: 10%;
+}
+
+#myAccount {
+  float: right;
+  padding-top: 2%;
+  font-size: 13px;
+}
+
+a {
+  color: #21282d;
+}

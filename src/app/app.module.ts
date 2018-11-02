@@ -11,6 +11,8 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { routing } from './app.routing';
 import { NavbarComponent } from './navbar/navbar.component';
+import { EducatorbarComponent } from './educatorbar/educatorbar.component';
+import { LogobarComponent } from './logobar/logobar.component';
 
 
 
@@ -27,6 +29,8 @@ export const firebaseConfig = {
     CarouselComponent,
     MarketplaceComponent,
     NavbarComponent,
+    EducatorbarComponent,
+    LogobarComponent,
 
   ],
   imports: [
