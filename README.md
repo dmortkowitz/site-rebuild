@@ -13,7 +13,11 @@ _by David Mortkowitz_
 * User should be able to navigate the front page of a mock BN.com layout.
 * Multiple components used, separating functional logic out into its most basic parts.
 
-## installation and usage
+## Known bugs
+* Search bar is non-functional
+*
+
+## Installation and Usage
 
 * Please have full installation of the items listed in the program.json file (located here: https://github.com/dmortkowitz/site-rebuild/blob/master/package.json ), along with Angular CLI (Angular CLI 1.6.5 was used in making this project).
 * After downloading the repository (located at: https://github.com/dmortkowitz/site-rebuild.git ), navigate to project folder in Terminal (or your command line of choice) and run the command:
