@@ -1,3 +1,7 @@
+.container {
+  min-width: 1024px;
+}
+
 ul {
   list-style: none;
 }
@@ -160,7 +164,62 @@ a {
   color: #21282d;
 }
 
+#suspenseFont {
+  font-family: Times;
+}
+#preorderNowFont{
+  font-family: Lato,sans-serif;
+  color: white;
+  font-size: 12px;
+  border-color: white;
+  border-radius: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
+#booksWorth {
+  font-family: Times;
+  color: black;
+  position: absolute;
+  bottom: 225px;
+  left: 5px;
+}
+
+#preorderInvert {
+  font-family: Lato,sans-serif;
+  color: black;
+  font-size: 12px;
+  border-color: black;
+  border-radius: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  bottom: 180px;
+  left: 112px;
+  margin-top: 50px;
+}
+
+#booksSmallInvert {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  bottom: 220px;
+  left: 40px;
+  margin-top: 50px;
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: #ccc;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 .grayBox {
   background-color: #d0d9df;
