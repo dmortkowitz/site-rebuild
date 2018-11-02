@@ -7,6 +7,10 @@ import { MainsiteComponent } from './mainsite/mainsite.component';
 
 const appRoutes: Routes = [
   {
+    path: '',
+    component: MainsiteComponent
+  },
+  {
     path: 'marketplace',
     component: MarketplaceComponent
   }
