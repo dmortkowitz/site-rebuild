@@ -4,7 +4,9 @@ _by David Mortkowitz_
 
 > This application recreates a website for Epicodus's Javascript week 3 curriculum. I have chosen to mimic BarnesandNoble.com
 >
->
+> A live site is hosted on Firebase, and available to view at:
+> https://site-rebuild-9136a.firebaseapp.com/
+> While the project code is available at my Github, listed at the bottom of this file.
 
 # Application specifications and behavior expectations
 
@@ -12,10 +14,9 @@ _by David Mortkowitz_
 * Multiple components used, separating functional logic out into its most basic parts.
 
 ## installation and usage
-#### Week 1
 
-* Please have full installation of the items listed in the program.json file (located here: ), along with Angular CLI (Angular CLI 1.6.5 was used in making this project).
-* After downloading the repository (located at: ), navigate to project folder in Terminal (or your command line of choice) and run the command:
+* Please have full installation of the items listed in the program.json file (located here: https://github.com/dmortkowitz/site-rebuild/blob/master/package.json ), along with Angular CLI (Angular CLI 1.6.5 was used in making this project).
+* After downloading the repository (located at: https://github.com/dmortkowitz/site-rebuild.git ), navigate to project folder in Terminal (or your command line of choice) and run the command:
 
 > npm install
 
@@ -38,6 +39,6 @@ _by David Mortkowitz_
 
 
 
-## Further help
+## Github
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+https://github.com/dmortkowitz/site-rebuild.git

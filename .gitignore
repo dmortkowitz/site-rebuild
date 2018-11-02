@@ -10,7 +10,7 @@
 /node_modules
 
 
-#Firebse credentials
+#Firebase credentials
 /src/app/api-keys.ts
 
 
