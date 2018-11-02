@@ -8,21 +8,21 @@ import { FormsModule } from '@angular/forms';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AppComponent } from './app.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { RegisterComponent } from './register/register.component';
+
 
 
 export const firebaseConfig = {
-  apiKey: masterFirebaseConfig.apiKey,
-  authDomain: masterFirebaseConfig.authDomain,
-  databaseURL: masterFirebaseConfig.databaseURL,
-  storageBucket: masterFirebaseConfig.storageBucket
+  apiKey: masterFirebaseConfig.firebase.apiKey,
+  authDomain: masterFirebaseConfig.firebase.authDomain,
+  databaseURL: masterFirebaseConfig.firebase.databaseURL,
+  storageBucket: masterFirebaseConfig.firebase.storageBucket
 };
 
 @NgModule({
   declarations: [
     AppComponent,
     CarouselComponent,
-    RegisterComponent
+
   ],
   imports: [
     BrowserModule,
