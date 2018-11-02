@@ -8,6 +8,8 @@ import { FormsModule } from '@angular/forms';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AppComponent } from './app.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { routing } from './app.routing';
 
 
 
@@ -22,6 +24,7 @@ export const firebaseConfig = {
   declarations: [
     AppComponent,
     CarouselComponent,
+    MarketplaceComponent,
 
   ],
   imports: [
