@@ -14,12 +14,17 @@ _by David Mortkowitz_
 * Multiple components used, separating functional logic out into its most basic parts.
 
 ## Known bugs
-* Search bar is non-functional
-*
+* Search bar is non-functional, but is expected to be fixed in a future update.
+* Currently user authentication is a work in progress, and is expected to be completed at a later date.
+* Currently server-based custom book lists in the 'marketplace' are a work in progress, and are expected to be completed at a later date.
 
 ## Installation and Usage
 
-* Please have full installation of the items listed in the program.json file (located here: https://github.com/dmortkowitz/site-rebuild/blob/master/package.json ), along with Angular CLI (Angular CLI 1.6.5 was used in making this project).
+* Please have Node installed
+* Please refer to the the program.json file located here:
+* https://github.com/dmortkowitz/site-rebuild/blob/master/package.json  
+
+
 * After downloading the repository (located at: https://github.com/dmortkowitz/site-rebuild.git ), navigate to project folder in Terminal (or your command line of choice) and run the command:
 
 > npm install

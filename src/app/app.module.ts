@@ -3,9 +3,10 @@ import { NgModule } from '@angular/core';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { AuthService } from './auth.service';
 import { FormsModule } from '@angular/forms';
-import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
@@ -20,10 +21,12 @@ import { BookDetailComponent } from './book-detail/book-detail.component';
 
 
 export const firebaseConfig = {
-  apiKey: masterFirebaseConfig.firebase.apiKey,
-  authDomain: masterFirebaseConfig.firebase.authDomain,
-  databaseURL: masterFirebaseConfig.firebase.databaseURL,
-  storageBucket: masterFirebaseConfig.firebase.storageBucket
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  projectId: masterFirebaseConfig.projectId,
+  storageBucket: masterFirebaseConfig.storageBucket,
+  messagingSenderId: masterFirebaseConfig.messagingSenderId
 };
 
 @NgModule({
@@ -35,19 +38,24 @@ export const firebaseConfig = {
     EducatorbarComponent,
     LogobarComponent,
     MainsiteComponent,
-    BookDetailComponent
+    BookDetailComponent,
 
   ],
 
   imports: [
     BrowserModule,
-    AngularFireModule.initializeApp(masterFirebaseConfig.firebase),
-    AngularFireAuthModule,
     FormsModule,
-    routing
+    HttpModule,
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
+
+
   ],
 
   providers: [AuthService],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }

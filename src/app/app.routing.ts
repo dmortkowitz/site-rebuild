@@ -5,7 +5,6 @@ import { MainsiteComponent } from './mainsite/mainsite.component';
 import { BookDetailComponent } from './book-detail/book-detail.component';
 
 
-
 const appRoutes: Routes = [
   {
     path: '',
