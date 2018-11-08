@@ -12,11 +12,13 @@ _by David Mortkowitz_
 
 * User should be able to navigate the front page of a mock BN.com layout.
 * Multiple components used, separating functional logic out into its most basic parts.
+* The Marketplace is now working, showing a booklist pulled from Firebase.
 
 ## Known bugs
 * Search bar is non-functional, but is expected to be fixed in a future update.
 * Currently user authentication is a work in progress, and is expected to be completed at a later date.
-* Currently server-based custom book lists in the 'marketplace' are a work in progress, and are expected to be completed at a later date.
+* The Firebase Database has been changing rules sporadically, which disables the Marketplace from time to time. Reason currently unknown. 
+
 
 ## Installation and Usage
 
