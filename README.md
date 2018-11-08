@@ -17,7 +17,6 @@ _by David Mortkowitz_
 ## Known bugs
 * Search bar is non-functional, but is expected to be fixed in a future update.
 * Currently user authentication is a work in progress, and is expected to be completed at a later date.
-* The Firebase Database has been changing rules sporadically, which disables the Marketplace from time to time. Reason currently unknown. 
 
 
 ## Installation and Usage
