@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { Book } from '../inventory.model';
 import { Router } from '@angular/router';
 import { BookService } from '../book.service';
+import { FirebaseObjectObservable } from 'angularfire2/database';
 
 @Component({
   selector: 'app-marketplace',
@@ -22,7 +23,7 @@ export class MarketplaceComponent implements OnInit {
     this.books = this.bookService.getBooks();
   }
 
-  goToDetailPage(clickedBook: Book) {
-    this.router.navigate(['books', clickedBook.id]);
+  goToDetailPage(clickedBook) {
+    this.router.navigate(['books', clickedBook.$key]);
   };
 }

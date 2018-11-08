@@ -10,10 +10,6 @@
 /node_modules
 
 
-#Firebase credentials
-/src/app/api-keys.ts
-
-
 # IDEs and editors
 /.idea
 .project
